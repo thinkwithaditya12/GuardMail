@@ -4,7 +4,7 @@ Phishing and email spoofing aren't just technical glitches; they are orchestrate
 
 **Core Modules**
 
-* **AI Threat Detection:** Analyzes the email body text, suspicious URLs, and attachment metadata. It utilizes a pre-trained API wrapper (like Gemini 1.5 Flash or HuggingFace) combined with standard regex to instantly output a Threat Score (0–100%), classification (e.g., Phishing, Spoofing), and red-flagged keywords via structured JSON.
+* **AI Threat Detection:** Analyzes  email body text, suspicious URLs, and attachment metadata. It utilizes a pre-trained API wrapper (like Gemini 1.5 Flash or HuggingFace) combined with standard regex to instantly output a Threat Score (0–100%), classification (e.g., Phishing, Spoofing), and red-flagged keywords via structured JSON.
 
 
 * **GeoLocation Tracking:** Parses raw email headers to extract `Received:` IP addresses and dynamically renders the sender's hop path on an interactive map using Leaflet.js or Mapbox.
